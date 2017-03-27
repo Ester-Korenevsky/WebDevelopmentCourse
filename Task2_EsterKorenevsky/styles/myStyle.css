@@ -1,0 +1,71 @@
+body {
+    direction: rtl;
+    line-height: 40px;
+    background-image: url('../images/pattern-958064_960_720.jpg');
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+    border: 10px solid lightpink;
+    padding: 20px;
+    height:1000px;
+   background-color:lightgray;
+}
+#live{
+    display:inline;
+  
+}
+#cv{
+   font-size: 48px;
+    line-height:30px;
+    color: hotpink;
+    padding-right: 370px;
+}
+h1{
+    font-size:38px;
+    line-height:30px;
+    color: hotpink;
+    padding-right: 355px;
+    padding-top:20px;
+   
+      
+}
+ #image{
+   background-image: url('../images/1.jpg');
+   background-repeat:no-repeat;
+   background-size: 100px;
+   width:100px;
+   height:200px;
+   background-position:center;
+        }
+h2{
+    font-size: 24px;
+    color:whitesmoke;
+    text-decoration: underline;
+}
+#facebook {
+    list-style-image:url('../images/Facebook_icon.jpg');
+   list-style-position:inside;
+   -webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+-o-transition: all 2s ease;
+transition: all 2s ease;
+}
+    #facebook:hover {
+        list-style-image: url('../images/Facebook_icon - Copy.jpg');
+        list-style-position: inside;
+    }
+#gmail {
+    list-style-image: url('../images/gmail.jpg');
+    list-style-position: inside;
+    -webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+-o-transition: all 2s ease;
+transition: all 2s ease;
+}
+    #gmail:hover {
+        list-style-image:url('../images/gmail - Copy.jpg');
+        list-style-position: inside;
+    }
