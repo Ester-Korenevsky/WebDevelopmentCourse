@@ -1,0 +1,120 @@
+body {
+    direction: rtl;
+    line-height: 40px;
+   background-size: 1800px;
+    background-image: url('../images/wild-flowers-flowers-plant-macro-40797.jpeg');
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    border: 10px solid purple;
+    padding: 20px;
+  
+   background-color:papayawhip;
+
+}
+p, ul, h2{
+    text-align:center;
+}
+#cv{
+   font-size: 48px;
+    line-height:30px;
+    color: hotpink;
+    padding-right: 370px;
+}
+h1{
+    font-size:38px;
+    line-height:30px;
+    color: hotpink;
+    padding-right: 355px;
+    padding-top:20px;
+   
+      
+}
+ #image{
+   background-image: url('../images/1.jpg');
+   background-repeat:no-repeat;
+   background-size: 100px;
+   width:1000px;
+   height:200px;
+   background-position:center;
+   
+
+
+        }
+h2{
+    font-size: 24px;
+    color:hotpink;
+    text-decoration: underline;
+}
+#me1{
+    font-size:24pt;
+}
+#facebook {
+    list-style-image:url('../images/Facebook_icon.jpg');
+   list-style-position:inside;
+   -webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+-o-transition: all 2s ease;
+transition: all 2s ease;
+}
+    #facebook:hover {
+        list-style-image: url('../images/Facebook_icon - Copy.jpg');
+        list-style-position: inside;
+    }
+#gmail {
+    list-style-image: url('../images/gmail.jpg');
+    list-style-position: inside;
+    -webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+-o-transition: all 2s ease;
+transition: all 2s ease;
+}
+    #gmail:hover {
+        list-style-image:url('../images/gmail - Copy.jpg');
+        list-style-position: inside;
+    }
+    ul{
+    list-style:none;
+
+}
+#nav1 ul li
+{
+display:inline-block;
+float:right;
+}
+#nav1 ul li a{
+   background-color: white;
+    color: deeppink;
+    width: 120px;
+    height:30px;
+    padding: 10px;
+    text-decoration: none;
+    text-align:center;
+}
+#nav1 ul li a:hover{
+    background-color: pink;
+
+}
+ #nav1 ul li a:active{
+        background-color:mediumpurple;
+    }
+ 
+    #nav1 ul li ul{ 
+        display: none;
+        position: absolute;
+       
+       
+    }
+    #nav1 ul li:hover ul
+{
+display:block;
+width:120px;
+}
+   
+
+ 
+ 
