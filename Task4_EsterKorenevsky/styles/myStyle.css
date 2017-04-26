@@ -1,0 +1,107 @@
+body 
+{
+    direction:rtl;
+
+}
+#container{
+    margin: 0 auto;
+    width: 960px;
+    background-image: url('../images/slide3_collaboration.jpg');
+    background-repeat: no-repeat;
+    
+}
+header {
+  
+    width: 100%;
+    text-align: center;
+   
+    
+}
+.logo {
+  
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    margin-right: 30px;
+    margin-top: 30px;
+
+}
+
+#first{
+    font-size: 35px;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-top: 105px;
+
+}
+#second{
+    font-size: 50px;
+    color:white;
+    background-color: black;
+    opacity: 0.6;
+}
+h2{
+    font-size: 25px;
+    color:white;
+    opacity: 0.6;
+   
+    
+}
+
+
+#myform{
+    display: inline-block;
+    width: 180px;
+      font-size: 14px;
+    height:210px;
+    background-color:black;
+    margin-right: 100px;
+   color: white;
+opacity: 0.6;
+padding-top: 10px;
+padding-right: 10px;
+
+
+}
+
+h2{
+    background-color: dodgerblue;
+    color: white;
+    opacity: 0.6;
+}
+ 
+#description{
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    line-height: 150%;
+ width: 350px;
+    padding-right: 45px;
+    
+    
+}
+
+
+#part2{
+
+    background-color:lightgrey;
+    height: 295PX;
+}
+label, input[type ='text'] , input[type ='number'] , input[type ='time'] {
+  
+    margin-bottom:20px;
+ 
+}
+input[type ='submit']{
+    margin-top: 10px;
+
+}
+
+input[type ='text'] , input[type ='number'] , input[type ='time'] {
+    width:160px;
+}
+input[type ='submit']  {
+    margin-right:743px;
+    margin-top:-10px;
+}
