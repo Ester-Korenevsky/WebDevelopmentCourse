@@ -1,0 +1,405 @@
+body 
+{
+    direction:rtl;
+}
+
+div{
+    margin:10px 5px;
+    clear:both;
+}
+#recpie li{
+    margin-right:20px;
+}
+#zodiac {
+    background-image: url('../images/Zodiac.jpg');
+    width: 150px;
+    height: 150px;
+  background-position:1200px;
+
+}
+#aside h1{
+    background-color: lightgreen;
+    text-align: center;
+   
+}
+#aside{
+    width: 220px;
+    border: 2px solid black; 
+    padding: 9px
+}
+#aside p{
+    padding: 15px;
+    text-align:justify;
+}
+#aside p:first-letter{
+    color: deeppink;
+    font-size: 24px;
+}
+#instegram {
+    background-image: url('../images/instegram.png');
+    width:100px;
+    height: 100px;
+    background-position:200px;
+}
+#instegram:hover{
+    background-image: url('../images/instegram.png');
+    width:100px;
+    height: 100px;
+    background-position:100px;
+}
+#zebra{
+    width: 100px;
+    background-color:mediumpurple;
+    border: 2px solid green;
+    
+}
+#zebra ul li{
+    list-style: none;
+}
+#zebra ul li:nth-child(even){
+    padding-right: 20px;
+    list-style: none;
+    font-size: 10px;
+    
+}
+    #zebra:hover {
+        width: 100px;
+        background-color: green;
+        border: 2px solid mediumpurple;
+    }
+    #zebra:hover ul li:nth-child(odd) {
+        padding-right: 20px;
+        list-style: none;
+        font-size: 10px;
+    }
+      #zebra:hover ul li:nth-child(even) {
+        padding-right: 0px;
+     font-size: 18px;
+        
+    }
+#zombie {
+    background-image: url('../images/Zombie.png');
+    height: 156px;
+    width: 100px;
+}
+#zombie:hover {
+    background-image: url('../images/Zombie.png');
+    height: 156px;
+    width: 100px;
+    background-position: 100px;
+    }
+#zombie:active {
+    background-image: url('../images/Zombie.png');
+    height: 156px;
+    width: 100px;
+    background-position: 200px;
+}
+
+
+
+
+
+
+                                                  /*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+
+#semantic {
+    background-image: url('../images/frame.jpg');
+    background-repeat: no-repeat;
+    background-size:350px;
+    width:350px;
+    height:350px;
+    background-position-x: 0px;
+
+}
+#semantic section{
+    width: 250px;
+    margin-right: 65px;
+    padding-top: 90px;
+}
+#semantic section h1{
+    text-align: center;
+    }
+#semantic section p{
+    padding-top: 15px;
+}
+#myWebSite{
+    border: 2px dashed purple;
+    width: 400px;
+    border-radius: 45px; 
+    padding: 20px;
+}
+
+#myWebSite ul li{
+    list-style: none;
+   
+    
+}
+#myWebSite h1{
+    text-align: center;
+}
+#profile {
+
+    background-image: url('../images/Profile.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: 360px;
+    padding-right: 40px;
+     
+}
+#heart {
+    background-image: url('../images/Heart.png');
+     background-size: 15px;
+         background-repeat: no-repeat;
+           background-position-x: 10px;
+            background-position-x: 290px;
+            padding-right: 110px;
+             
+}
+#academic {
+    background-image: url('../images/Academic.png');
+     background-size: 15px;
+         background-repeat: no-repeat;
+             background-position-x: 240px;
+               padding-right: 170px;
+              
+}
+#myWebSite p{
+    text-align: center;
+}
+
+
+/*חלק ב' - תרגיל 2 - aside*/
+#news ul
+{
+list-style:none;
+}
+#nav1 ul li{
+    display:inline-block;
+float:right;}
+#nav1 ul li
+{
+display:block;
+width:120px;
+}
+#nav1 ul li a
+{
+display: block;
+background-color: black;
+color: white;
+width: 120px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+#mypic {
+    background-image: url('../images/Home.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+background-position-x: center;
+background-position-y: 10px;
+}
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+#nav2{
+    clear: both;
+}
+#nav2 ul li
+{
+display:inline-block;
+
+}
+#nav2 ul li:after
+{
+content: "<";
+}
+#nav2 ul li:last-child:after
+{
+content:"" ;
+}
+
+#nav3 ul li{
+    display:inline-block;
+float:right;}
+#nav3 ul li a
+{
+display: block;
+background-color: black;
+color: white;
+width: 170px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+#nav3 ul li ul {
+    display: none;
+position: absolute;
+}
+#nav3 ul li ul {
+    display: none;
+position: absolute;
+
+}
+#nav3 ul li ul li ul{
+     display: none;
+position: absolute;
+right:170px;
+top: 0px;
+}
+#nav3 ul li:hover > ul
+{
+display:block;
+width:120px;
+}#hit{
+    height: 100px;
+}
+
+/*חלק ב' - תרגיל 4 - זברה*/
+#table1 , tr , th , td {
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+
+#table1{
+    width: 400px;
+    margin-top: 30px;
+}
+#table1 th{
+    text-align: right;
+}
+#table1  td{
+    text-align:center;
+}
+#red{
+    background-color: red;
+
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+/*חלק ב' - תרגיל 5 - זומבי*/
+#table2{
+    width: 470px;
+
+}
+#id1{
+    background-color: darkorange;
+}
+#trgreen th{
+    background-color: green;
+    color: white;
+}
+#table2 th, #table2 td, #table2 tr{
+    padding: 7px;
+}
+#table2 td{
+    text-align: center;
+}
+
+                                                /*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+#table3 {
+    width: 490px;
+    table-layout: fixed;
+     border-collapse:separate;
+     
+}
+.th1{
+    height: 30px;
+}
+#tr1, #tr2, #tr3, #tr4{
+    height: 70px;
+}
+#sweet {
+    background-image: url('../images/cookie.png');
+    width: 70px;
+    height: 70px;
+    background-size: 70PX;
+    background-repeat: no-repeat;
+   background-position-y: 7px;
+}
+#apple {
+    background-image: url('../images/fruit.png');
+      width: 70px;
+    height: 70px;
+    background-size: 70PX;
+    background-repeat: no-repeat;
+   background-position-y: 7px;
+}
+#vegi {
+    background-image: url('../images/vegetable.png');
+     width: 70px;
+    height: 70px;
+    background-size: 70PX;
+    background-repeat: no-repeat;
+   background-position-y: 7px;
+}
+#bread {
+    background-image: url('../images/sandwich.png');
+     width: 70px;
+    height: 70px;
+    background-size: 70PX;
+    background-repeat: no-repeat;
+   background-position-y: 7px;
+}
+#table, #table3 th{
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px;
+   
+    
+
+ }
+ #trfirst{
+     background-color: cornflowerblue;
+ }
+ form label{
+     width: 250px;
+     display: block;
+ }
+
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+
+  
+  
+
+                                              /*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+
+   
+
+   
+
+/*חלק ד' - תרגיל 2 - hit*/
+
+      
+
+
+
+                                                 /*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+
+
+
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+
+
+
+
+                                                     /*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
