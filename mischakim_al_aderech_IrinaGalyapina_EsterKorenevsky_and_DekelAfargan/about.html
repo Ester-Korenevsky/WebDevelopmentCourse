@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <meta name="description" content="משחקים לילדים בנסיעות וזמני המתנה" />
+    <meta name="keywords" content="משחקים, ילדים, נסיעות, פתרון להורים, ללא הכנות מוקדמות, מטוס, מכונית, זמן המתנה, תחבורה ציבורית" />
+    <meta name="author" content="אירינה גליאפינה, דקל אפרגן, אסתר קורנבסקי" />
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>משחקים על הדרך-אודות</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="js/JavaScript2.js"></script>
+
+</head>
+
+<body onload="tab_nav()">
+    <a href="#content11" class="skip">עבור לתוכן</a>
+    <header class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="logo pull-left visible-xs-block" href="index.html"><img src="images/logo.png" alt="דף הבית - אתר משחקים על הדרך" width="100" /></a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <a class="logo pull-right hidden-xs" href="index.html"><img src="images/logo.png" alt="אתר משחקים על הדרך" width="120" /></a>
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html" role="menuitem" tabindex="0"><img src="images/Home.png" alt="" /><span>דף בית</span></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" role="menuitem" dropdown" tabindex="0"><img src="images/menu/Airplane.png" alt="" /><span>מטוס</span></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li class="dropdown-submenu">
+                                    <a href="#" id="notin7" class="dropdown-toggle" role="menuitem" data-toggle="dropdown">גילאים 6-8</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a id="notin8" role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a id="notin9" role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" id="notin4" class="dropdown-toggle" role="menuitem" data-toggle="dropdown">גילאים 8-10</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a id="notin5" role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a id="notin6" role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" id="notin" role="menuitem" class="dropdown-toggle" data-toggle="dropdown">גילאים 10-12</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a id="notin1" role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a id="notin2" role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+                                <li class="yamina"><a id="notin3" role="menuitem" href="#">גילאים שונים</a></li>
+
+                                <li class="yamina"><a role="menuitem" href="matos.html">ייצוג אינטרקטיבי</a></li>
+                            </ul>
+                        </li>
+
+                        <li id="notin11">
+                            <a href="#" class="dropdown-toggle" role="menuitem" data-toggle="dropdown" tabindex="0"><img src="images/menu/Bus.png" alt="" /><span>תחבורה ציבורית</span></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li class="dropdown-submenu">
+                                    <a role="menuitem" href="#" class="dropdown-toggle" data-toggle="dropdown">גילאים 6-8</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a role="menuitem" href="#" class="dropdown-toggle" data-toggle="dropdown">גילאים 8-10</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">גילאים 10-12</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="yamina"><a role="menuitem" href="#">גילאים שונים</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" role="menuitem" data-toggle="dropdown" tabindex="0"><img src="images/menu/Car.png" alt="" /><span>מכונית</span></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li class="dropdown-submenu">
+                                    <a href="#" role="menuitem" class="dropdown-toggle" data-toggle="dropdown">גילאים 6-8</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a role="menuitem" href="yahid6-8.html">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="kvuza6-8 .html">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" role="menuitem" class="dropdown-toggle" data-toggle="dropdown">גילאים 8-10</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a class="notallowed" role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="kvuza8-10 .html">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a id="notin13" href="#" class="dropdown-toggle" data-toggle="dropdown">גילאים 10-12</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a id="notin14" role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a id="notin15" role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="yamina"><a href="gilaimShonim.html">גילאים שונים</a></li>
+                            </ul>
+                        </li>
+
+                        <li id="notin12">
+                            <a href="#" class="dropdown-toggle" role="menuitem" data-toggle="dropdown" tabindex="0"><img src="images/menu/Clock.png" alt="" /><span>זמן המתנה</span></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li class="dropdown-submenu">
+                                    <a href="#" role="menuitem" class="dropdown-toggle" data-toggle="dropdown">גילאים 6-8</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a role="menuitem" href="#">יחיד</a></li>
+                                        <li class="yamina"><a role="menuitem" href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" role="menuitem" class="dropdown-toggle" data-toggle="dropdown">גילאים 8-10</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a href="#">יחיד</a></li>
+                                        <li class="yamina"><a href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">גילאים 10-12</a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li class="yamina"><a href="#">יחיד</a></li>
+                                        <li class="yamina"><a href="#">קבוצה</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="yamina"><a href="#">גילאים שונים</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div><!--/.nav-collapse -->
+        </div>
+    </header>
+
+    <main class="main" role="main">
+
+        <div class="container">
+            <article>
+                <div id="content11">
+                    <div id="road13"></div>
+                    <section>
+                        <h1 id="koteret3">אודות</h1>
+                        <h2 id="who">מי אנחנו?</h2>
+                    </section>
+                    <div id="aboutus">
+                        <section id="siteis">
+                            <p>
+                                האתר "משחקים על הדרך" מהווה פתרון למבוגרים אשר נוסעים עם ילדיהם או נאלצים <br />
+                                להעסיקם במהלך המתנה. האתר מציע מגוון פעילויות ומשחקים לילדים בגילאי 6 עד 12 <br />
+                                ומסווג בהתאם להיקף כמות האנשים שעבורם נדרשת הפעילות ילד יחיד או קבוצה של ילדים.
+                            </p>
+                        </section>
+                        <section>
+                            <p id="wedid">
+                                האתר פותח על ידי: אירה גליאפינה, דקל אפרגן ואסתר קורנבסקי<br />
+                                במסגרת פרויקט משולב לקורסים בשנה א' תשע"ז:
+                            </p>
+                            <ul id="courses">
+                                <li> אפיון ממשק וחווית משתמש</li>
+                                <li>עיצוב ממשק משתמש</li>
+                                <li>פיתוח אתרי אינטרנט</li>
+                                <li>נגישות למחשב - אתגר לאנשים עם מוגבלות</li>
+                            </ul>
+                        </section>
+                        <section id="uxui">
+                            <p>
+                                האתר אופיין ועוצב לפי עקרונות של "עיצוב ממשק" ופותח ב- <br />
+                                HTML5 ו-CSS3 תוך התחשבות בעקרונות "נגישות אתרים".
+                            </p>
+                            <p>
+                                האתר כולל <a id="matos1" href="matos.html"> תוצר אינטראקטיבי לייצוג ידע</a><br />
+                                המאופיין ומפותח בקורסים "ארגון וייצוג ידע" ו- "מבוא לתכנות אינטראקטיבי"
+                            </p>
+                        </section>
+                        <section id="putach">
+                            <p>
+                                להלן המסכים שפותחו באתר:
+                            </p>
+                            <ul>
+                                <li><a href="index.html"> דף הבית </a> </li>
+                                <li><a href="yahid6-8.html">  מכונית- גילאי 6-8 יחיד</a></li>
+                                <li><a href="kvuza6-8 .html">מכונית- גילאי 6-8 קבוצה</a></li>
+                                <li><a href="kvuza8-10 .html">מכונית- גילאי 8-10 קבוצה</a></li>
+                                <li><a href="gilaimShonim.html">מכונית- גילאים שונים</a></li>
+                                <li class="active2"><a href="about.html">אודות</a></li>
+                                <li><a href="contact.html">צור קשר</a></li>
+                                <li><a href="map.html">מפת האתר</a></li>
+                            </ul>
+
+                        </section>
+                        <section>
+                            <a id="" href="kredit.html"> קרדיט</a><br />
+                        </section>
+                        <div id="hit">
+                            <p id="hittext"><a href="http://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a></p>
+                        </div>
+                        <div id="we">
+                            <div id="ira">
+                                <p> אירה </p>
+                            </div>
+                            <div id="dekel">
+                                <p> דקל</p>
+                            </div>
+                            <div id="ester">
+                                <p> אסתר</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="footer">
+        <div id="myline"></div>
+        <div class="container">
+            <nav>
+                <ul class="list-inline">
+                    <li><a href="index.html"><img src="images/Home.png" alt="" width="20" /></a></li>
+                    <li><a  class="notallowed" href="#">כל הפעילויות</a></li>
+                    <li><a  class="notallowed" href="#">דפי צביעה</a></li>
+                    <li><a class="selected" href="about.html">אודות</a></li>
+                    <li><a href="contact.html">צור קשר</a></li>
+                    <li><a href="map.html">מפת האתר</a></li>
+                    <li><a href="kredit.html">קרדיט</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
