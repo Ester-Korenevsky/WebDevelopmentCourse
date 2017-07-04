@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>שיווקלי - צור קשר</title>
+    <meta name="description" content="עמוד יצירת קשר לאתר שיווקלי, המדריך הקליל לשיווק עצמי ברשתות החברתיות." />
+    <meta name="keywords" content="רשתות חברתיות, שיווק עצמי, שיווק ללא עלות, יוצרי אתר שיווקלי, social media marketing, שיווק ברשתות למתחילים," />
+    <meta name="author" content="שובל שירום, מורן נהור, תמרה ראובני" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+
+</head>
+<body onload="tab_nav(), accessible()">
+    <div id="changeContrastButton" class="clickable">לשינוי ניגודיות</div>
+    <a href="#content" id="tabbutton" class="sr-only sr-only-focusable">דלגו לתוכן העמוד</a>
+    <div id="container">
+        <header class="inner">
+            <div id="mynav">
+                <nav id="nav1">
+                    <ul>
+                        <li> <a href="index.html"> דף הבית</a> </li>
+                        <li> <a href="why social media.html"> למה רשתות חברתיות?</a></li>
+                        <li> <a href="which media suits me.html"> מה מתאים לי ?</a> </li>
+                        <li>
+                            <a href="createapage.html"> יצירת עמוד</a>
+                            <ul>
+                                <li> <a id="dropdownfb" href="create fb page.html"> יצירת עמוד בפייסבוק</a> </li>
+                                <li> <a href="#"> יצירת עמוד באינסטגרם</a> </li>
+                                <li> <a href="#"> יצירת עמוד בטוויטר</a> </li>
+                                <li> <a href="#"> יצירת עמוד בלינקדין</a> </li>
+                            </ul>
+                        </li>
+                        <li> <a href="tips.html" id="tips"> טיפים</a> </li>
+                    </ul>
+
+                    <div id="add"> </div>
+                </nav>
+                <div id="logo">
+                    <a href="index.html">שיווּקְלִי</a>
+                </div>
+            </div>
+            <div id="social">
+                <div id="choose">
+                    להדרכות הממקודות <br />
+                </div>
+                <nav id="navsocial">
+                    <ul>
+                        <li> <a href="Facebook overview.html" id="fac" alt="להדרכה מקוצרת על פייסבוק"></a></li>
+                        <li> <a href="#" id="ins" alt="להדרכה מקוצרת על אינסטגראם"></a></li>
+                        <li> <a href="#" id="twi" alt="להדרכה מקוצרת על טוויטר"></a></li>
+                        <li> <a href="#" id="lin" alt="להדרכה מקוצרת על לינקדאין"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article id="content">
+            <h1> צור קשר</h1>
+            <p>מלאו פרטים שיסייעו לנו להשתפר קצת יותר ונחזור אליכם בהקדם.</p>
+            <form id="form1">
+                <input type="hidden" id="myEmail" name="name" value="shovalsh277@gmail.com">
+                <label for="FirstName" class="mydesign">
+                    שם מלא: <br />
+                    <input type="text" id="FullName" placeholder="הכנס את שמך המלא" />
+                </label> <br />
+                <label for="myopinion2" class="mydesign">
+                    מה היית משפר באתר: <br />
+                    <input type="text" id="mytext" placeholder="הצעות לשיפור" />
+                </label>
+                <br />
+                <label for="myemail" class="mydesign">
+                    אימייל:<br />
+                    <input type="text" id="myemail" placeholder="הכנס את האימייל שלך" />
+                </label>
+
+            </form>
+            <input id="send" type="submit" value="שלח">
+            <div id="feedback"></div>
+
+
+        </article>
+        <footer>
+            <nav id="footnav">
+                <ul>
+                    <li> <a href="about.html"> אודות</a> </li>
+                    <li> <a href="contactUs.html">צור קשר </a> </li>
+                    <li> <a href="site map.html" id="map"> מפת אתר</a> </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+</html>

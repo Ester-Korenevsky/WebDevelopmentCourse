@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>שיווקלי - מה מתאים לי</title>
+    <meta name="description" content="עמוד המסיע בבחירת רשתות חברתיות לשיווק עצמי. ניתן לראות מהם היתרונות של כל רשת ולמי היא יכולה להתאים." />
+    <meta name="keywords" content="רשתות חברתיות, שיווק עצמי, שיווק ללא עלות באיזו רשת כדאי לשווק, רשת הכי טובה לשיווק עצמי
+          למי מתאים לשווק בפייסבוק, למי מתאים לשווק בטוויטר, למי מתאים לשווק באינסטגרם, למי מתאים לשווק בלינקדאין, איך לבחור רשת חברתית לשיווק, 
+          social media marketing, שיווק ברשתות למתחילים," />
+    <meta name="author" content="שובל שירום, מורן נהור, תמרה ראובני" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="Images/favicon.jpg">
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+
+</head>
+<body onload="tab_nav(), accessible()">
+    <div id="changeContrastButton" class="clickable">לשינוי ניגודיות</div>
+    <a href="#fadiv" id="tabbutton" class="sr-only sr-only-focusable">דלגו לתוכן העמוד</a>
+    <div id="container">
+        <header class="inner">
+            <div id="mynav">
+                <nav id="nav1">
+                    <ul>
+                        <li> <a href="index.html"> דף הבית</a> </li>
+                        <li> <a href="why social media.html"> למה רשתות חברתיות?</a></li>
+                        <li> <a href="which media suits me.html" class="here"> מה מתאים לי ?</a> </li>
+                        <li>
+                            <a href="#" id="createpage"> יצירת עמוד</a>
+                            <ul>
+                                <li> <a id="dropdownfb" href="create fb page.html"> יצירת עמוד בפייסבוק</a> </li>
+                                <li> <a href="#"> יצירת עמוד באינסטגרם</a> </li>
+                                <li> <a href="#"> יצירת עמוד בטוויטר</a> </li>
+                                <li> <a href="#"> יצירת עמוד בלינקדין</a> </li>
+                            </ul>
+                        </li>
+                        <li> <a href="tips.html" id="tips"> טיפים</a> </li>
+                    </ul>
+
+                    <div id="add"> </div>
+                </nav>
+                <div id="logo">
+                    <a href="index.html">שיווּקְלִי</a>
+                </div>
+            </div>
+            <div id="social">
+                <div id="choose">
+                    להדרכות הממקודות <br />
+                </div>
+                <nav id="navsocial">
+                    <ul>
+                        <li> <a href="Facebook overview.html" id="fac" alt="להדרכה מקוצרת על פייסבוק"></a></li>
+                        <li> <a href="#" id="ins" alt="להדרכה מקוצרת על אינסטגראם"></a></li>
+                        <li> <a href="#" id="twi" alt="להדרכה מקוצרת על טוויטר"></a></li>
+                        <li> <a href="#" id="lin" alt="להדרכה מקוצרת על לינקדאין"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article class="open">
+            <h1>איזו רשת מתאימה לי?</h1>
+            <div class="openwhich" id="fadiv" onclick="myWhich1()">
+                <h2> <a id="fadiva" href="#" onclick="myWhich1()">פייסבוק </a></h2>
+                <span>לפילוח שוק</span>
+            </div>
+            <div class="openwhich" id="insdiv" onclick="myWhich2()">
+                <h2><a id="insdiva" href="#" onclick="myWhich2()"> אינסטגרם</a> </h2>
+                <span>לתכנים עיצוביים</span>
+            </div>
+            <div class="openwhich" id="twidiv" onclick="myWhich3()">
+                <h2> <a id="twidiva" href="#" onclick="myWhich3()">טוויטר</a> </h2>
+                <span>לקהל בינלאומי</span>
+            </div>
+            <div class="openwhich" id="lidiv" onclick="myWhich4()">
+                <h2> <a id="lidiva" href="#" onclick="myWhich4()">לינקדין</a> </h2>
+                <span>לתחום העסקי</span>
+            </div>
+            <p id="which1">
+                <strong> פייסובוק</strong>
+                היא הרשת הכי גדולה ופופולרית. <br />
+                לכן היא מתאימה
+                <strong>לרוב סוגי העסקים.</strong> <br />
+                היא מאפשרת
+                <strong>תקשורת ישירה</strong>
+                ואישית עם קהלי היעד  באמצעות לייקים, תגובות ושיתופים.<br />
+                בנוסף, פייסבוק מאפשרת לפרסם בתשלוםמלפי הגדרות מדויקות של
+                <strong>פילוח שוק.</strong> <br />
+                <a href="create fb page.html">ליצירת עמוד בפייסבוק</a>
+            </p>
+            <p id="which2">
+                <strong>אינסטגרם</strong>
+                היא רשת הממוקדת כולה בפן
+                <strong>הוויזואלי.</strong> <br />
+                היא מתאימה למי שעוסק בתחומי העיצוב, ספורט, אוכל או<br />
+                כל מה שנראה טוב
+                <strong>בתמונות וסרטונים.</strong>
+                קהל היעד העיקרי באינסטגרם הוא
+                <strong>צעירים.</strong><br />
+                באמצעות
+                <strong>פרסומים בתשלום</strong>
+                תוכלו להגביר את החשיפה שלכם. <br />
+                <a href="#">ליצירת עמוד אינסטגרם</a>
+            </p>
+            <p id="which3">
+                <strong>בטוויטר</strong>
+                כל פוסט (ציוץ) הוא באורך של עד
+                <strong>140 תוים</strong> בלבד. <br />
+                טוויטר מתאימה למי שרוצה
+                <strong> להתעדכן במהירות</strong>
+                על פעילויות בתחום העיסוק שלו. <br />
+                פונקציית ההשטאג (סולמית) נותנת לכם
+                <strong> למתג ציוצים לפי נושא</strong>. <br />
+                טוויטר מתאימה למי שמשווק
+                <strong>לקהל בינלאומי.</strong> <br />
+                <a href="#">ליצירת עמוד בטוויטר</a>
+            </p>
+            <p id="which4">
+                <strong> לינקדאין</strong>
+                היא
+                <strong>רשת עסקית</strong>:
+                מומלץ להשתמש בה <br />
+                אם אתם
+                <strong>מחפשים עבודה</strong>
+                או רוצים
+                <strong>לשווק את השירותים שלכם</strong>. <br />
+                אופי הרשת הוא
+                <strong>מקצועי ורציני</strong>,
+                אז המשתמשים יחסית בוגרים ובעלי השכלה. <br />
+                תוכלו ליצו
+                <strong> פרופיל מקצועי אישי</strong> או
+                <strong>דף עסקי</strong>, בהתאם לצרכים שלכם. <br />
+                <a href="#">ליצירת עמוד בלינקדאין</a>
+            </p>
+
+            <section class="man" id="which"></section>
+        </article>
+        <footer>
+            <nav id="footnav">
+                <ul>
+                    <li> <a href="about.html"> אודות</a> </li>
+                    <li> <a href="contactUs.html">צור קשר </a> </li>
+                    <li> <a href="site map.html" id="map"> מפת אתר</a> </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
