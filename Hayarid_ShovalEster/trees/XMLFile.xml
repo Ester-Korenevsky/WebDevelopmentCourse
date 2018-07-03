@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hayarid>
+  <Game id="6" gamecode="1239" gamename="סיפורי אגדות מוכרים מן הילדות " categorycounter="4" published="True" NoPublished="True" instruction="לחץ על הקטגוריה המתאימה למופיע על הלוח" time="30">
+    <Category id="2" categoryname="סינדרלה" paritcounter="7">
+      <parit type="text">נעל זכוכית</parit>
+      <parit type="text">אחיות חורגות</parit>
+      <parit type="text">הנעל הזאת מתאימה רק לנערה אחת לא אנוח ולא אשקוט עד שאמצאה</parit>
+      <parit type="text">עליך לשוב הביתה לפני חצות</parit>
+      <parit type="text">לכלוכית</parit>
+      <parit type="pic">UploadedFiles/imageNewName26_06_18 - 11_45_22.jpg</parit>
+      <parit type="text">מעשייה ששוכתבה ופורסמה על ידי האחים גרים</parit>
+    </Category>
+    <Category id="3" categoryname="הנסיך הקטן" paritcounter="5">
+      <parit type="pic">UploadedFiles/imageNewName22_06_18 - 17_35_54.jpg</parit>
+      <parit type="text">1943</parit>
+      <parit type="text">העולם פשוט למדי בעיני המלכים הרואים את כל בני האדם כנתינים</parit>
+      <parit type="text">אין לראות את הדברים היטב אלא בלב הדבר החשוב באמת סמוי מהעין</parit>
+      <parit type="text">נוף זה הוא בעיני הנוף היפה ביותר וגם העצוב ביותר בעולם כולו</parit>
+    </Category>
+    <Category id="4" categoryname="ספר הג'ונגל" paritcounter="5">
+      <parit type="text">מוגלי</parit>
+      <parit type="text">נכתב בידי רודיארד קיפלינג</parit>
+      <parit type="text">הסיפורים מתרחשים ביערות הגשם שבהודו</parit>
+      <parit type="text">בגירה הפנתר</parit>
+      <parit type="text">אני אוהב את הילד אני אוהב אותו כאילו היה הבן שלי</parit>
+    </Category>
+    <Category id="5" categoryname="שלגיה ושבעת הגמדים" paritcounter="5">
+      <parit type="text">מראה מראה שעל הקיר מי הכי יפה בעיר</parit>
+      <parit type="pic">UploadedFiles/imageNewName26_06_18 - 22_29_26.jpg</parit>
+      <parit type="text">גבירתי המלכה את הכי יפה בכל הממלכה</parit>
+      <parit type="text">תפוח אדום</parit>
+      <parit type="pic">UploadedFiles/imageNewName26_06_18 - 22_30_03.jpg</parit>
+    </Category>
+  </Game>
+  <Game id="3" gamecode="1236" gamename="מנגינת היריד" categorycounter="3" published="True" NoPublished="True" instruction="לחץ על הקטגוריה המתאימה למופיע על הלוח" time="20">
+    <Category id="1" categoryname="כלי הקשה" paritcounter="5">
+      <parit type="text">תוף מרים</parit>
+      <parit type="text">משולש</parit>
+      <parit type="text">תוף אפריקאי</parit>
+      <parit type="text">דרבוקה</parit>
+      <parit type="pic">UploadedFiles/imageNewName26_06_18 - 11_25_09.png</parit>
+    </Category>
+    <Category id="5" categoryname="כלי מיתר " paritcounter="5">
+      <parit type="text">צלו</parit>
+      <parit type="text">כינור</parit>
+      <parit type="text">ויולה</parit>
+      <parit type="text">קונטרבס</parit>
+      <parit type="pic">UploadedFiles/imageNewName26_06_18 - 11_23_45.png</parit>
+    </Category>
+    <Category id="6" categoryname="כלי נשיפה" paritcounter="5">
+      <parit type="text">חצוצרה</parit>
+      <parit type="text">חלילית</parit>
+      <parit type="text">סקסופון</parit>
+      <parit type="text">טרומבון</parit>
+      <parit type="text">קלרינט</parit>
+    </Category>
+  </Game>
+</Hayarid>

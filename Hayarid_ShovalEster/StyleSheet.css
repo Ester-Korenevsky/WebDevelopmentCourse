@@ -1,0 +1,424 @@
+﻿#form1{
+ direction:rtl;
+ font-family:Arial;
+ width: 960px;
+ padding-top:4px;
+ margin: 0 auto;
+ overflow:hidden;
+ 
+}
+
+ #formP{
+
+direction:rtl;
+ font-family:Arial;
+ width: 960px;
+ padding-top:4px;
+ margin: 0 auto;
+ overflow:hidden;
+ margin-right:233PX;
+
+ }
+
+ 
+#saveC{
+    position:absolute;
+    margin-top:0px;
+    margin-right:0PX;
+}
+input[type="checkbox" i] {
+   width:20px;
+   height:20px;
+   display:block;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+
+#adding{
+    width:300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:-10px;
+   margin-right:40PX;
+
+}
+
+input[type="checkbox" i][disabled] {
+  
+  cursor:not-allowed;
+}
+ 
+input[type="checkbox" i][enabled] {
+  
+  background-color:steelblue;
+}
+ 
+#GridView1 input[type="image" i]{
+     display:block;
+ margin-left:auto;
+ margin-right:auto;
+     width: 25px;
+    height: auto;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+#Button7{
+    margin-right:244PX;
+    margin-bottom:10px;
+   
+}
+#MinC{
+    margin-right:5px;
+}
+#RadioButtonList1 label{
+    font-size:11pt;
+}
+#MinP{
+    margin-right:7px;
+}
+.editpage{
+      position: absolute;
+       margin-right: -195px;
+    margin-top: -8px;
+    font-size:16pt;
+    
+}
+.imageedit{
+         background-repeat: no-repeat;
+    background-image: url(images/hetz.png);
+    width: 296px;
+    height: 107px;
+    position: absolute;
+    background-size: 210px;
+    transform: scaleX(-1);
+    margin-right: -255px;
+    margin-top: -14px;
+
+}
+#GameText{
+    margin-right:7px;
+     width:425px;
+}
+
+#addingGame{
+    width:960px;
+    margin-right:74px;
+    vertical-align:top;
+    margin-top:30px;
+    display:block;
+    font-size:11pt;
+}
+
+#deleteCategory, #deleteParit, #DeleteGame{
+   position: absolute;
+   background-color:white;
+   border-radius:10px;
+   padding:10px;
+  top: 200px;
+  right:400px;
+  width: 400px;
+  height:150px;
+  z-index: 10;
+  font-size:17px;
+  border-top:solid #f9ba8d 5PX;
+
+ 
+
+ }
+#BackPanel{
+     position: absolute;
+   background-color:black;
+  top:0px;
+  opacity:0.5;
+  right:0px;
+  width:100%;
+  height:100%;
+  z-index: 9;
+}
+#limitG{
+    font-size:8pt;
+    display:block;
+    margin-right:75px;
+}
+
+#cancelcate{
+    display:block;
+    padding-top:30px;
+padding-right:140px;
+
+}
+
+table#GridView1{
+  margin-top: 30px;
+ width:960px;
+ margin-left:auto;
+ margin-right:auto;
+ font-size:11pt;
+}
+
+table#GridView1 tr td:first-child{
+ 
+ width:490px;
+ padding-right:10px;
+
+}
+table#GridView1 tr td:nth-child(2){
+ 
+    text-align:center;
+    width:65px;
+}
+
+table#GridView1 tr td:nth-child(3),table#GridView1 tr td:nth-child(4),table#GridView1 tr td:nth-child(5),table#GridView1 tr td:nth-child(6){
+ 
+width:65px;
+}
+input[type="checkbox" i][disabled] {
+  
+  cursor:not-allowed;
+  background-color:#f7f7f7;
+}
+#grid{
+    overflow:auto;
+    height:404px;
+    width:832px;
+    margin:auto;
+
+}
+#grid table{
+    margin-top:10px;
+    width:930px;
+    
+}
+#Panel1{
+    background-color:#f7f7f7;
+    width: 588PX;
+    height:358px;
+    padding-right:16px;
+    overflow-y:scroll;
+    direction:rtl;
+    padding-top:7PX;
+}
+#category{
+ margin-top:20px;
+}
+#ListBox1{
+    margin-top:10px;
+    padding:7PX;
+}
+#TextBox2{
+    height:80px;
+    width:242px;
+    padding-bottom:70PX;
+    overflow:hidden;
+    resize:none;
+}
+#LabelG{
+    font-weight:bold;
+    font-size:15pt;
+    margin-top:10px;
+
+}
+
+#limitepar{
+  font-size:8pt;
+  margin-left:129px;
+  position:absolute;
+  margin-top:-5px;
+
+}
+#limitCate{
+    margin-right:70px;
+    font-size:8pt;
+   
+}
+#mainP{
+   display:inline-block;  
+    margin-right:-9px;
+    margin-top:95px;
+}
+#Image1{
+    position:absolute;
+    margin-top:120PX;
+    margin-right:225PX;
+    height:auto;
+    width:100PX;
+   
+}
+#Panel1 img:hover{
+   transform: scale(1.8);
+   z-index:15;
+   position:relative;
+  margin:auto;
+  -webkit-transition: all 80ms ease-in;
+-moz-transition: all 80ms ease-in;
+-ms-transition: all 80ms ease-in;
+-o-transition: all 80ms ease-in;
+transition: all 80ms ease-in;
+}
+
+.imageC{ 
+  margin:auto;
+  display:block;
+  vertical-align:middle;
+  margin-top:7px;
+}
+#labelParit,#LabelCate, #GameN{
+   width:370px;
+   
+}
+#ok,#OkCate, #OkGame{
+    margin-right:110PX;
+     margin-top:30px;
+     position:absolute;
+    bottom:5PX;
+    display:inline-block;
+    width:70px;
+  
+ 
+
+
+}
+
+.designPIC,.designP{
+    display:block;
+    padding-right: 51PX;
+    position:absolute;
+     bottom:0px;
+
+}
+
+.Pane{
+    display:inline-block;
+    border:black solid 1PX;
+    border-radius:20PX;
+    padding-top:7px;
+   width:170PX;
+   height:120PX;
+   margin-left:14PX;
+   margin-top:6PX;
+   background-color:white;
+   
+   position:relative;
+}
+
+.LabelC{
+    width:150px;
+    font-family:Arial;
+    font-size:11pt;
+    position:absolute;
+    margin-right:10PX;
+    margin-left:20px;
+   display:inline-block;
+   word-wrap: break-word;
+  
+}
+
+#LabelPro{
+
+    font-weight:bold;
+    padding-bottom:15PX;
+    font-size:20PX;
+}
+#ListBox1{
+    display:inline;
+    background-color:#f7f7f7;
+    border:none;
+    overflow: hidden;
+    height:100px;
+    
+}
+#ListBox1 option{
+    height:30px;
+    padding:5px;
+    border:1px black solid;
+    border-radius:10px;
+    margin:5px;
+    font-size:11pt;
+    margin-top:8px;
+    
+}
+
+#Button2{
+    margin-right:168PX;
+}
+#Button6{
+position:absolute;
+
+}
+#enterBtn{
+    margin-right:65px;
+}
+#formenter{
+    width:250px;
+    display:block;
+
+     direction:rtl;
+ font-family:Arial;
+
+ margin: 0 auto;
+ overflow:hidden;
+
+}
+
+#Button2,#enterBtn, #saveC,#Button1, #Button6, #Button1game, #Button4,#Button7,#cancelCte, #cancel, #CancelGame,#ok,#OkCate, #OkGame {
+ border-radius:3px;
+ background-color:lightgray;
+}
+#Button2:hover,#enterBtn:hover,#saveC:hover,#Button1:hover, #Button6:hover, #Button1game:hover, #Button4:hover,#Button7:hover,#cancelCte:hover, #cancel:hover, #CancelGame:hover,#ok:hover,#OkCate:hover, #OkGame:hover {
+  background-color:lightseagreen;
+  color:white;
+  border-color:lightseagreen;
+}
+#Button2:disabled,#Button1:disabled,#saveC:disabled,#enterBtn:disabled, #Button6:disabled, #Button1game:disabled, #Button4:disabled,#Button7:disabled {
+  background-color:#f7f7f7;
+  color:lightgray;
+   border-color:transparent;
+}
+#Button3{
+margin-right:6px;
+ 
+
+}
+#Button1{
+margin-right:auto;
+    margin-right: 73PX;
+    position: absolute;
+    margin-top: 0px;
+}
+
+#adding #Button1{
+margin-right:auto;
+    margin-right: 3PX;
+    position: absolute;
+    margin-top: 0px;
+}
+
+
+
+
+#Button4{
+    position:absolute;
+margin-right:180px;
+
+}
+.titles{
+    font-weight:bold;
+    font-size:13pt;
+}
+.EditB , .DeleteB, .EditBP{
+width:20PX;
+height:20PX;
+display:inline;
+}
+
+
+#cancelCte, #cancel, #CancelGame{
+
+     position:absolute;
+    bottom:5PX;
+    display:inline-block;
+        margin-right:200PX;
+            width:70px;
+
+}

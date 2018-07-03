@@ -1,0 +1,212 @@
+﻿body {
+    /*background-color: #C1EDFF;*/
+    /*background-color: white;*/
+    background-color: white;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+gameArea {
+    width: 100%;
+    height: 500px;
+}
+
+iframe {
+    width: 100%;
+    height: 93%;
+    position: absolute;
+}
+
+
+#gameArea {
+    margin-top: -20px;
+}
+
+#logo {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    font-size: medium;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.color {
+    color: #fed714;
+}
+
+#insPic {
+    width: 184px;
+    position: absolute;
+    margin-right: 384px;
+    margin-top: 92px;
+}
+
+#aboutLogo{
+    display:inline;
+    
+}
+
+
+.royal{
+    text-align: center;
+}
+
+
+.x-large{
+        font-size: 18pt;
+       
+}
+.x-large1{
+        font-size:16pt;
+        
+}
+
+large{
+    font-size: 19pt !important;
+}
+
+.sizeIt{
+    font-size: 14pt;
+}
+
+#aboutLogoSrc {
+     width:auto;
+    height:50px;
+    margin-top:15px;
+}
+#aboutLogoSrc2 {
+     width:auto;
+    height:59px;
+    display:inline block;
+}
+#hit{
+ font-size:large;
+ display:inline;
+  vertical-align:bottom;
+
+
+}
+#hit a{
+    font-weight:bold;
+}
+#hit{
+    margin-top:-10px;
+}
+
+#telem{
+   display: block;
+    padding-right: 30px;
+    position: absolute;
+    margin-right: 215px;
+    margin-top: -28px;
+
+}
+
+.telem{
+
+    text-align: right;
+}
+
+#hitLogo{
+    width: 66px;
+    float: right;
+    margin-right: 24%;
+    margin-left: 2%;
+}
+
+
+.navbar-default {
+    background-color: #f9ba8d;
+    border-color: #f9ba8d !important;
+}
+
+    .navbar-default .navbar-brand {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #151413;
+        }
+
+    .navbar-default .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: black;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #151413;
+        }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #151413;
+        background-color: #f9ba8d;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #151413;
+        background-color: #f9ba8d;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #f9ba8d;
+    }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #f9ba8d;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-link {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-link:hover {
+            color: #151413;
+        }
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #151413;
+        }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #151413;
+        background-color: #f9ba8d;
+    }
+}
