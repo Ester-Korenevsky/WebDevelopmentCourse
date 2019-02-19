@@ -1,0 +1,399 @@
+body 
+{
+    direction:rtl;
+    font-family:Assistant;
+
+}
+@font-face {
+  font-family: Assistant;
+  src: url(sansation_light.woff);
+
+}
+@font-face {
+    font-family: 'Assistant-ExtraBold';
+    src: url('../fonts/Assistant-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant-ExtraLight';
+    src: url('../fonts/Assistant-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant-Bold';
+    src: url('../fonts/Assistant-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant-Light';
+    src: url('../fonts/Assistant-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant-Regular';
+    src: url('../fonts/Assistant-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant-SemiBold';
+    src: url('../fonts/Assistant-SemiBold.ttf') format('truetype');
+}
+#container{
+    margin:0 auto;
+    max-width:960px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+        font-size:1.2vw;
+}
+.navbar-expand-lg{
+    margin-bottom:0px;
+    background-color:#ff8859
+}
+.bg-light{
+    background-color:rgba(255, 255, 255,0.85) !important;
+}
+
+.navbar-brand img{
+    max-height:40px;
+    max-width:200px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+         color:#fb6225;
+         font-weight:bold;
+ }
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    font-weight:bold;
+}
+.bg-light{
+    margin-bottom:0px;
+}
+
+#headerS{
+    background-image: url('../images/header.jpg');
+
+}
+    #headereat {
+        background-image: url('../images/blueberries-1576407_1920.jpg');
+    }
+    #headerloosing {
+        background-image: url('../images/bag-1427218_1920.jpg');
+    }
+    #headerrepeat {
+        background-image: url('../images/people-218843_1280.jpg');
+    }
+    #headersleep {
+        background-image: url('../images/read-3667768_1920.jpg');
+    }
+    #headerunrest {
+        background-image: url('../images/labyrinth-1598666_1920.jpg');
+    }
+   
+#headertext{
+    background-color:rgba(238, 111, 7, 0.70);
+    color:white;
+width:100%;
+position:absolute;
+ bottom:0;
+ font-family:Assistant;
+
+    }
+
+#headertext h1, #headertext p{
+     max-width:960px;
+      margin:0 auto;
+}
+
+#Select1 option{
+    border:0.5px solid grey;
+        margin-bottom:5px;
+
+}
+#Select1 option:hover{
+    background-color:#fb6225;
+}
+#Select1 option:active{
+border:none;
+
+}
+.Pelet{
+    padding:10px;
+width:100%;
+height:auto;
+  margin:0 auto;
+ background-color:rgb(222,214,204);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+
+}
+
+.clickedQ{
+ padding:10px;
+ max-height:320PX;
+width:100%;
+height:auto;
+ background-color:rgb(222,214,204);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  margin-bottom:10px;
+}
+
+
+.jumbotron{
+    margin-bottom:1rem !important;
+}
+#TheQuestion{
+    font-weight:bold;
+    color:rgba(238, 111, 7, 1);
+}
+
+.row{
+    margin:0 auto;
+}
+
+
+.btn{
+    margin: 0 auto;
+    background-color: #fb6225;
+    border: none;
+
+}
+.btn:hover{
+    background-color:#f0662f;
+}
+
+.mySlides {display:none;}
+
+#dugma{
+
+
+margin:0 auto;
+}
+
+#dugma{
+   
+    width:40% !important;
+}
+
+#myGoogleMap{
+
+
+    height:100%;
+}
+
+a:hover{
+    text-decoration:none;
+}  
+
+	 #footer{
+         background-color:rgb(243, 243, 243);
+       
+	 }
+     #myfooter a{
+         color:#3d2c2c;
+         font-family:Assistant;
+
+     }
+
+    @media screen and (min-width: 768px) {
+
+.jumbotron{
+           padding-top:0px;
+    min-height:100%;
+  min-height:240px;
+  background-size: cover;
+  background-position:center;
+  position:relative;
+    }
+.Pelet h3{
+    color: #fb6225;
+    font-size:1.2rem;
+}
+select[multiple], select[size]{
+ overflow:hidden;
+    border:none;
+    height:165px; 
+    width:100%;
+
+}
+#myGoogleMap {
+    height: 350px;
+}
+h2, h3{
+    font-size:21px;
+}
+#Select1 option {
+    font-size: 20px;
+  }
+.Pelet {
+       
+        font-size:15px;
+    }
+ .behavior p, .behavior li, #TheQuestion, #TheAnswer,  #activity p {
+  
+        font-size:15px;
+    
+    }
+  #myfooter a{
+  
+        font-size:15px;
+    
+    }
+  .card{
+    width:14rem;
+    margin:0 auto;
+    border:none;
+}
+
+.card-title{
+    font-size:1.3rem;
+}
+.card-subtitle{
+     font-size:1.1rem;
+     font-weight:normal;
+}
+.card-img-overlay{
+    padding-right:4rem !important;
+    padding-top:2rem !important;
+}
+}
+    #activity{
+        background-color:rgb(222,214,204);
+
+    }
+@media screen and (max-width: 767px) {
+.jumbotron{
+          padding-top:0px;
+    min-height:100%;
+  min-height:200px;
+  background-size: cover;
+  background-position:center;
+  position:relative;
+    }
+select[multiple], select[size]{
+ overflow:hidden;
+    border:none;
+    height:107px; 
+    margin-bottom:10px;
+        width:100%;
+
+}
+#Select1 option {
+    font-size: 12px;
+  }
+
+h2, h3{
+      font-size:16px;
+}
+#myGoogleMap {
+    height: 250px;
+}
+.Pelet {
+      
+          font-size:10px;
+          padding:10px;
+    }
+   .behavior p, .behavior li, #TheQuestion, #TheAnswer, #QExplain, #activity p,.Pelet p  {
+   
+          font-size:14px;
+        
+    }
+    #myfooter a {
+   
+          font-size:10px;
+        
+    }
+    .card{
+    width:10rem;
+    margin:0 auto;
+    border:none;
+}
+
+.card-title{
+    font-size:1rem;
+}
+.card-subtitle{
+     font-size:0.8rem;
+     font-weight:normal;
+}
+.card-img-overlay{
+    padding-right:2.2rem !important;
+    padding-top:2rem !important;
+}
+    #Qhr {
+        margin-top:0 !important;
+        margin-bottom:0 !important;
+    }
+}
+
+#myfooter {
+    background-color: rgb(222,214,204);
+}
+
+#activity{
+    text-align:center;
+}
+#activity h2{
+    color:white;
+}
+#activity p{
+    margin-bottom:0px !important;
+}
+hr{
+    background-color:white;
+    width:50%;
+    margin-right:0px;
+}
+#myhr{
+      border-top: dashed lightgrey;
+      width:100%;
+}
+#Qhr{
+   background-color:white;
+    width:95%;
+    float:right;
+}
+
+#HitLogo, #HappyFamily{
+
+width:100%;
+height:auto;    
+
+
+}
+.Selected:hover {
+
+font-weight:bold;
+}
+
+.Selected{
+
+color:rgba(238, 111, 7, 1);
+font-weight:bold;
+
+
+}
+#myCarousel{
+    margin-bottom:10px;
+}
+
+
+.card:hover{
+        transform: scale3d(1.1, 1.1, 1);
+         transition: all 0.5s;
+
+}
+.carousel-control-next{
+    left:0 !important;
+    position:absolute;
+}
+
+#contactus{
+    font-size:15px;
+}
+.embed-container{
+   overflow: hidden;
+   padding-top: 56.25%;
+   position: relative;
+ }
+.embed-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+ }
