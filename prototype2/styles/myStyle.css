@@ -178,7 +178,7 @@ body
     margin-top: 15px;
 }
    .metapelbtn{
-       width:180px;
+       max-width:180px;
    }
 #headertextIndex h1{
     background-color:rgb(231, 230, 230);
