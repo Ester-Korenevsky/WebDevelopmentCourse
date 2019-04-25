@@ -150,6 +150,7 @@ body
          border-color:white;
          outline:none;
          font-family:Assistant;
+	 padding-left: 0.75rem;
      }
      .unrestbtn{
                   width:140px;
