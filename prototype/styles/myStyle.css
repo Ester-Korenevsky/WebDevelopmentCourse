@@ -8,31 +8,31 @@ body
 
 @font-face {
     font-family: 'Assistant-Regular';
-    src: url('../fonts/Assistant-Regular.ttf');
+    src: url('../fonts/Assistant-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-ExtraBold';
-    src: url('../fonts/Assistant-ExtraBold.ttf');
+    src: url('../fonts/Assistant-ExtraBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-ExtraLight';
-    src: url('../fonts/Assistant-ExtraLight.ttf');
+    src: url('../fonts/Assistant-ExtraLight.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-Bold';
-    src: url('../fonts/Assistant-Bold.ttf');
+    src: url('../fonts/Assistant-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-Light';
-    src: url('../fonts/Assistant-Light.ttf');
+    src: url('../fonts/Assistant-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-Regular';
-    src: url('../fonts/Assistant-Regular.ttf');
+    src: url('../fonts/Assistant-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Assistant-SemiBold';
-    src: url('../fonts/Assistant-SemiBold.ttf');
+    src: url('../fonts/Assistant-SemiBold.ttf') format('truetype');
 }
 
 .navbar-expand-lg{
